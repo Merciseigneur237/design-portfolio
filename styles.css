@@ -542,7 +542,7 @@ margin-bottom: 10px;
   }
   
   .contact-inputs:focus{
-    border: 2px solid rgb(121, 105, 0);
+    border: 2px solid rgb(121, 105, 10);
   }
   
   .contact-inputs::placeholder{
