@@ -616,10 +616,6 @@ margin-bottom: 10px;
     }
     
     .contact-container{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     margin-left: 50px;
   }
     
