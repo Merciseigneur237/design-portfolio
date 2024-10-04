@@ -418,7 +418,7 @@ margin-bottom: 10px;
     
 
     .header-text h1{
-      font-size:36px;
+      font-size:30px;
 
     }
     .header-text img{
@@ -485,6 +485,10 @@ margin-bottom: 10px;
 
     .contact-right{
       display: none;
+    }
+    .contact-container{
+      margin-left: 50px;
+      
     }
     
 
