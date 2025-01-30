@@ -1,250 +1,274 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/cea6dd34a2.js"></script>
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
-  100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,
-  400;1,500;1,600;1,700;1,800;1,900&display=swap" 
-  rel="stylesheet">
- 
-</head>
+  <title>personal portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lightbox.css">
+  <script src="https://kit.fontawesome.com/cea6dd34a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <!-- -------------------------Header----------------- -->
+
   <div id="header">
-    <div class="container">
+    <div class="containers">
       <nav>
         <img src="images/logo.png" class="logo">
         <ul id="sidemenu">
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#service">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <i class="fas fa-times" onclick="closemenu()"></i>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
-        <i class="fas fa-bars" onclick="openmenu()"></i>
-      </nav>
-
-      <div class="header-text">
-        
-        <h1>Hi, I'm <span>ROMEO FEUKEU</span> </h1>
-        <p>Front-End Web Developer,<br> Web Designer and Graphic Designer</p>
-        <!----<img src="images/book.jpg">------->
-      </div>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+     </nav>
+        <div class="header-text">
+          <p><span>Graphic & Web Designer</span><br></p>
+          <h2>Front-end Web Developer</h2>
+          <h1>I'm Romeo <span>FEUKEU</span></h1>
+        </div>
     </div>
+  
   </div>
 
+ <!-- ---------------------------About------------------- -->
 
-<!--------------------------About---------------------->
-  
-<div id="about">
-    <div class="container">
+  <div id="about">
+    <div class="containers">
       <div class="row">
-        <div class="about-col-1">
-          <img src="images/romeo.png"> 
+        <div class="about-col1">
+          <img src="images/romeo123.jpg" >
         </div>
-        <div class="about-col-2">
-          <h1 class="sub-title">About me</h1>
-          <p>I am a Front-end Developer and Web Designer with two years of experience in Web Development. and also with 5 years in Graphic Design. I have worked on a variety of projects for clients in the Retail, Travel and Healthcare industries...</p>
-
-          <div class="tab-titles">
+        <div class="about-col2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a Web & Graphic Designer and Front-end Developer  with two years of experience in Web Development. and also with 5 years in Graphic Design. I have worked on a variety of projects for clients in the Retail, Travel and Healthcare industries, Packaging....</p>
+          <div class="tab-title">
             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-            <p class="tab-links"  onclick="opentab('experience')" >Experience</p>
-            <p class="tab-links"  onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
           <div class="tab-contents active-tab" id="skills">
             <ul>
-              <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
-              <li><span>Front-end Developer</span><br> Web App Development</li>
-              <li><span>Graphic Designer</span><br>reate visual concepts, using computer software<br> or by hand, to communicate ideas that<br> inspire, inform, and captivate consumers</li>
+              <li><span>Graphic Design</span><br>I create visual concepts to communicate information. I create everything from posters and billboards to packaging, logos and marketing materials. I use elements such as shapes, colors, typography, images and more to convey ideas to an audience.</li>
+
+              <li><span>Front-end Web Developer</span><br>A front-end developer, I createswebsites and applications using web languages ​​such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</li>
+
+              <li><span>Web Design</span><br>I create the layout and design of a website. In short, I make the site look nice. Web designers use design programs to create visual elements such as buttons and scroll bars.</li>
             </ul>
+
           </div>
+
 
           <div class="tab-contents" id="experience">
             <ul>
-              <li><span>2022 - 2025</span><br> Minneapolis community and Technico-college </li>
-              <li><span>2022 - 2025</span><br>Minneapolis community and Technico-college</li>
-              <li><span>2017 - curent</span><br> Minneapolis community and Technico-college <br> & Powerbache Education
+              <li><span>Graphic Design2</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
+
+              <li><span>Front-end Web Developer2</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
+
+              <li><span>Web Design2</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
             </ul>
+
           </div>
+
 
           <div class="tab-contents" id="education">
             <ul>
-              <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
-              <li><span>Front-end Developer</span><br> Web App Development</li>
-              <li><span>Graphic Designer</span><br>reate visual concepts, using computer software<br> or by hand, to communicate ideas that<br> inspire, inform, and captivate consumers</li>
-            </ul>
-          </div>
+              <li><span>Graphic Design3</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
 
+              <li><span>Front-end Web Developer3</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
+
+              <li><span>Web Design3</span><br>Graphic designers, also referred to as graphic artists or communication designers, combine art and technology to communicate .</li>
+            </ul>
+
+          </div>
         </div>
       </div>
     </div>
+    
+  </div>
+  <!-- ---------------------------- Portfolio------- -->
 
+  <div id="portfolio">
+    <div class="containers">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <a href="images/work-0.png" data-lightbox="models" data-title="Redo Meta Meci">
+
+            <div class="work">
+              <img src="images/work-0.png">
+            </div>
+          </a>
+
+          <a href="images/work-1.jpg" data-lightbox="models" data-title="caption1">
+
+            <div class="work">
+              <img src="images/work-1.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-2.jpg" data-lightbox="models" data-title="caption2">
+
+            <div class="work">
+              <img src="images/work-2.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-3.jpg" data-lightbox="models" data-title="caption3">
+
+            <div class="work">
+              <img src="images/work-3.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-4.jpg" data-lightbox="models" data-title="caption4">
+
+            <div class="work">
+              <img src="images/work-4.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-5.jpg" data-lightbox="models" data-title="caption5">
+
+            <div class="work">
+              <img src="images/work-5.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-6.jpg" data-lightbox="models" data-title="caption6">
+
+            <div class="work">
+              <img src="images/work-6.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-7.png" data-lightbox="models" data-title="caption7">
+
+            <div class="work">
+              <img src="images/work-7.png">
+            </div>
+          </a>
+
+          <a href="images/logo.jpg" data-lightbox="models" data-title="logo1">
+
+            <div class="work">
+              <img src="images/logo.jpg">
+            </div>
+          </a>
+          <a href="images/work-12.jpg" data-lightbox="models" data-title="lMockup Bcard">
+
+            <div class="work">
+              <img src="images/work-12.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-8.jpg" data-lightbox="models" data-title="Logo Romeo">
+
+            <div class="work">
+              <img src="images/work-8.jpg">
+            </div>
+          </a>
+
+          <a href="images/work-10.jpg" data-lightbox="models" data-title="Mockuup Business Card">
+
+            <div class="work">
+              <img src="images/work-10.jpg">
+            </div>
+          </a>
+
+        </div>
+    </div>
   </div>
 
-  <!-- -----------------------services------------------>
-   <div id="services">
-    <div class="container">
+
+  <!-- ----------------------Services------------- -->
+
+  <div id="service">
+    <div class="containers">
       <h1 class="sub-title">My Services</h1>
       <div class="services-list">
         <div>
-          <i class="fa-solid fa-desktop"></i>
-          <h2>Web Design</h2>
-          
-          <p>We design and develop experiences, services, and products for customers of all scales. We specialize in design, technology, and creative solutions.</p>
-          <a href="#">Learn More</a>
-        </div>
-
-        <div>
-          <i class="fa-solid fa-code"></i>
-          <h2>Front-end Web Developer</h2>
-          <p>a type of software developer who specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications.</p>
-          <a href="#">Learn More</a>
-        </div>
-
-        <div>
-         
           <i class="fa-solid fa-pen-nib"></i>
           <h2>Graphic Designer</h2>
-          <p> I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers</p>
-          <a href="#">Learn More</a>
+          <p>Responsible for giving a visual identity, I choose the typography, the colors, the paper. I position the different elements (texts, photos, illustrations), place the logos, etc.</p>
+          <a href="#" class="btn">learn More</a>
         </div>
 
-        
-      </div>
-    </div>
-   </div>
-
-   <!-- -------------------porfolio------------ -->
-
-   <div id="portfolio">
-    <div class="container">
-      <h1 class="sub-title">Portfolio</h1>
-      <div class="work-list">
-
-        <div class="work">
-          <img src="images/work1.jpg">
-          <div class="layer">
-            <h3>Graphic Design</h3>
-            <p>Graphic design is a craft where professionals create visual content to communicate messages.</p>
-            <a href="#"><i class="fa-solid fa-gear"></i></a>
-          </div>
+        <div>
+          <i class="fa-solid fa-window-restore"></i></i>
+          <h2>Web Design</h2>
+          <p>Web design services are professional services provided by an agency that help you design your website. Services can include designing the look of your website, implementing responsive design to make your website mobile-friendly, website page creation, and more.</p>
+          <a href="#" class="btn">learn More</a>
         </div>
 
-        <div class="work">
-          <img src="images/work-2.jpg">
-          <div class="layer">
-            <h3>Front-end Web Developer</h3>
-            <p>A front-end developer builds the front-end portion of websites and web applications—the part users see and interact with</p>
-            <a href="#"><i class="fa-solid fa-gear"></i></a>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/work-4.png">
-          <div class="layer">
-            <h3>Web Design</h3>
-            <p>Web design involves creating the visual elements and layout of a website</p>
-            <a href="#"><i class="fa-solid fa-gear"></i></a>
-          </div>
+        <div>
+          <i class="fa-solid fa-code"></i></i>
+          <h2>Front-end Web Developer</h2>
+          <p>I create The process of creating and maintaining the client-side architecture of your website is called front-end development. In front-end development, the data sent by the back-end of your website in response to a client request is displayed using HTML, CSS, and JavaScript..</p>
+          <a href="#" class="btn">learn More</a>
         </div>
       </div>
-      <a href="#" class="btn">See More</a>
+      
     </div>
-   </div>
-
-   <!---------------------------- contact--------------------->
-  <div class="contact-container">
-    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-      <div class="contact-left-title">
-        <h2>Please, Contact me </h2>
-        <hr>
-      </div>
-       <input type="hidden" name="access_key" value="44ed33bd-8fec-41a7-8f00-3fbc9cb01299">
-      <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
-      <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
-      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-      <button type="submit">Submit</button>
-   </form>
-    <div class="contact-right">
-      <img src="images/background-image.png" class="background image">
-    </div>
-
   </div>
-  
-    <div class="copyright">
-      <P>Copyright &copy Made by <b>Romeo Feukeu</b> 2024</P>
+
+
+  <!-- ----------------------------Contact=================== -->
+
+  <div id="contact">
+    <div class="containers">
+      <h1 class="sub-title">My Contact</h1>
+      <div class="row">
+        <div class="contact-left">
+          <p><i class="fa-solid fa-paper-plane"></i>romeofeukeu@yahoo.fr</p>
+          <p><i class="fa-solid fa-phone"></i>01763843XXXX</p>
+
+          <div class="socia-icons">
+            <a href="https://facebook.com" target="-blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://facebook.com" target="-blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://facebook.com" target="-blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com" target="-blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="images/CV.pdf" download class="btn btn2" >Download Cv</a><br>
+        </div>
+        
+        <div class="contact-right">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="44ed33bd-8fec-41a7-8f00-3fbc9cb01299">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" row="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+
     </div>
-   </div>
+    <div class="copyright">
+      <p>Copyright &#169; by Romeo Feukeu  2025</p>
+    </div>
+  </div>
+
+   <script src="lightbox-plus-jquery.js"></script>
 
 
+   <script> 
 
-
-
-
-
-
-
-
-
-
-
-  <script>
-    var tablinks = document.getElementsByIdClassName("tab-links");
-    var tabcontents = document.getElementsByIdClassName("tab-contents");
-    function opentab(tabname){
-      for(tablink of tablinks){
-        tablink.classlist.remove("active-link");
-      }
-
-      for(tabcontent of tabcontents){
-        tabcontent.classlist.remove("active-tab");
-      }
-      event.currentTarget.Classlist.add("active-link");
-      document.getElementsById(tabname).classList.add("active-tab");
-    }
+   var sidemeu = document.getElementById("sidemenu");
     
-  </script>
+   function openmenu(){
+    sidemeu.style.right = "0";
+   }
 
-  <script>
-    var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
-      sidemenu.style.right = "0";
-    }
-
-    function closemenu(){
-      sidemenu.style.right = "-200px";
-    }
-
-
-  </script>
+   function closemenu(){
+    sidemeu.style.right = "-250px";
+   }
 
 
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxag4G3iIgevS8kAeF1H6zrVbqFJrA7EAa-eS2ZOZvAC4ws_3ODgmZilog5N1J428mP/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerhtml = " Message sent successfully"
-        setTimeout(function(){
-          msg.innerHTML = ""
-        },5000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+   </script>
 </body>
 </html>
